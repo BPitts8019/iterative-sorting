@@ -56,9 +56,3 @@ def counting_sort(arr, maximum=None):
     # Your code here
 
     return arr
-
-
-nums = [5, 4, 3, 2, 1]
-print(nums)
-nums = bubble_sort(nums)
-print(nums)

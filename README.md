@@ -6,9 +6,9 @@
 
 ## Objectives
 
-- describe the differences between Linear and Binary Search algorithms
-- define what runtime complexity is, differentiate between various classifications and categorize the performance of an algorithm using Big O notation
-- distinguish when to use, classify the performance, and implement code to conduct classic iterative sorting algorithms
+-  describe the differences between Linear and Binary Search algorithms
+-  define what runtime complexity is, differentiate between various classifications and categorize the performance of an algorithm using Big O notation
+-  distinguish when to use, classify the performance, and implement code to conduct classic iterative sorting algorithms
 
 ## Introduction
 
@@ -20,16 +20,16 @@ As you begin interviewing for jobs, you will often be expected to be able to imp
 
 ## Instructions and/or completion requirements
 
-- [ ] Open up the [iterative_sorting](src/iterative_sorting) directory
-- [ ] Read through the descriptions of the `bubble_sort` and `selection_sort` algorithms
-- [ ] Implement `bubble_sort` and `selection_sort` in [iterative_sorting.py](src/iterative_sorting/iterative_sorting.py)
-- [ ] Test your implementation by running `test_iterative.py`
-- [ ] Implement all the methods in the [searching.py](src/searching/searching.py) file in the [searching](src/searching) directory.
-- [ ] Test your implementation of the searching methods by running `test_searching.py`.
+-  [x] Open up the [iterative_sorting](src/iterative_sorting) directory
+-  [x] Read through the descriptions of the `bubble_sort` and `selection_sort` algorithms
+-  [x] Implement `bubble_sort` and `selection_sort` in [iterative_sorting.py](src/iterative_sorting/iterative_sorting.py)
+-  [x] Test your implementation by running `test_iterative.py`
+-  [x] Implement all the methods in the [searching.py](src/searching/searching.py) file in the [searching](src/searching) directory.
+-  [x] Test your implementation of the searching methods by running `test_searching.py`.
 
 ## Stretch goals
 
-- [ ] Implement the `counting_sort` [algorithm](https://en.wikipedia.org/wiki/Counting_sort) in the [iterative_sorting](src/iterative_sorting) directory.
+-  [ ] Implement the `counting_sort` [algorithm](https://en.wikipedia.org/wiki/Counting_sort) in the [iterative_sorting](src/iterative_sorting) directory.
 
 ## Tests
 
@@ -65,8 +65,8 @@ to complete the algorithm grows proportionately.
 But the _space_ complexity is `O(1)`. The additional space required to complete
 the algorithm was:
 
-- `result`: `O(1)`
-- `v`: `O(1)`
+-  `result`: `O(1)`
+-  `v`: `O(1)`
 
 And neither of those change in size regardless of how big list `data` is. `data`
 could have a zillion elements, and the algorithm would still only require space
@@ -88,9 +88,9 @@ def alg(data):
 
 Here we have more space allocated.
 
-- `result`: `O(1)`
-- `v`: `O(1)`
-- `new_data`: `O(n)`
+-  `result`: `O(1)`
+-  `v`: `O(1)`
+-  `new_data`: `O(n)`
 
 `new_data` gets bigger as `data` gets bigger, so it's `O(n)`. So we have:
 
@@ -159,7 +159,7 @@ So the total space complexity for this algorithm is:
 Again, compare to the `O(1)` space complexity of the initial iterative solution.
 
 In some languages, notably
-[Lisp](https://en.wikipedia.org/wiki/Lisp_(programming_language)) and other
+[Lisp](<https://en.wikipedia.org/wiki/Lisp_(programming_language)>) and other
 [functional programming
 languages](https://en.wikipedia.org/wiki/Functional_programming), you can write
 recursive solutions with `O(1)` space complexity. These languages take advantage
